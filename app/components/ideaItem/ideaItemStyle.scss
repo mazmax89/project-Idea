@@ -1,0 +1,14 @@
+.block {
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px 20px 20px;
+  margin: 10px;
+  float: left;
+  width: 500px;
+  min-height: 200px;
+}
+
+.block:hover {
+  background-color: #d8d8d8;
+}

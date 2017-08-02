@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+.createIdea {
+
+  .title {
+    height: 40px;
+    > h1 {
+      font-size: 28px;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0px;
+      text-decoration: none;
+      > a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .formGroup {
+
+    > textarea {
+      width: 100%;
+      height: 110px;
+    }
+
+    .btnDefault {
+      width: 59%;
+      background-color: #1a8034;
+      color: #ffffff;
+      line-height: 30px;
+      box-shadow: none;
+      border: none;
+      margin-bottom: 20px;
+
+      &:active, &:hover {
+        box-shadow: none;
+        background-color: #2da94a;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .warning {
+    width: 100%;
+    height: 30px;
+    float: left;
+    color: red;
+  }
+}
